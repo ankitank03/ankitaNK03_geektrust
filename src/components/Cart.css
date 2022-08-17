@@ -1,0 +1,35 @@
+.cart_items{
+    display: flex;
+    justify-content: center;
+}
+.image-container{
+    height:120px;
+    overflow:hidden;
+}
+.image-container > img{
+    object-fit: cover;
+    height:100%;
+}
+.containerBox{
+    margin-top:0 !important;
+    background-color: #eee; 
+    
+}
+.orderContainer{
+    display: flex !important;
+    justify-content: center !important;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.noItems{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+}
+h3{
+    margin-top: 0;
+}

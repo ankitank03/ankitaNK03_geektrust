@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes,Switch } from "react-router-dom";
+import Cart from "./components/Cart";
+import Header from "./components/Header";
+import Products from "./components/Products";
 
+export const config={
+  endpoint:'https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/catalogue.json'
+}
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <Header/> */}
+     <Routes>
+     <Route  path="/" element={<Products/>}/>
+     <Route path="/cart" element={<Cart/>}/>
+     </Routes>
     </div>
   );
 }

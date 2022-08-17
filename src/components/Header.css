@@ -1,0 +1,20 @@
+.header{
+    background-color: #d5e0d8;
+}
+.header_elements{
+    padding:1rem;
+    display:flex;
+    justify-content: space-between;
+}
+.header_items{
+    display:flex;
+    justify-content: center;
+}
+.header_addtocart{
+    position:relative;
+}
+.item-total{
+    position:absolute;
+    top:0;
+    right:0;
+}

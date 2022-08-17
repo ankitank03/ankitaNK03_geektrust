@@ -1,0 +1,13 @@
+.cardActions{
+    display:flex;
+    justify-content:space-between
+}
+.modifyQuantity{
+    display:flex;
+    justify-content:space-between;
+    background-color:#d5e0d8;
+}
+.quantity{
+    margin-top:3px;
+    font-size: medium;
+}
